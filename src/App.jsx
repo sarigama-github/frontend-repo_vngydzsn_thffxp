@@ -3,11 +3,13 @@ import HeroSection from './components/HeroSection';
 import MetricsGrid from './components/MetricsGrid';
 import RightPanels from './components/RightPanels';
 import ProductivityAndHighlights from './components/ProductivityAndHighlights';
+import SupabaseStatus from './components/SupabaseStatus';
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white font-inter">
       <HeroSection />
+      <SupabaseStatus />
       <MetricsGrid />
       <RightPanels />
       <ProductivityAndHighlights />
